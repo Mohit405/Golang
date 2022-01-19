@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Comments</title>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+    <body>
+        <h1>Comments</h1>
+        <form method="post">
+            <textarea name="comment"></textarea>
+            <div>
+                <button type="submit">Post Comment</button>
+            </div>
+            
+        </form>
+        {{range.}}
+        <div>
+            {{.}}
+        </div>
+        {{end}}
+    </body>
+</html>

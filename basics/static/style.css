@@ -1,0 +1,8 @@
+body >div{
+    padding: 0.5rem;
+    text-align: center;
+    width: 200px;
+    margin: 1em 0em;
+    background-color: rgb(90, 79, 79);
+    border: 1px solid #aaa;
+}
